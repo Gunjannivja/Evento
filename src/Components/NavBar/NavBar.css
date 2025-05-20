@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.root{
+    background-color: #dfe6e9;
+    width: 100dvw;
+    height: 60px;
+}
+.subdiv{
+    padding: 0px 15px;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.leftBox{
+  display: flex;
+  
+}
+.rightBox{
+    display: flex;
+    align-items: center;
+ }  
+.rightBox ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
